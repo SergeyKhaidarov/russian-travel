@@ -16,9 +16,7 @@
     font-weight: 900;
     font-size: 32px;
     line-height: 109%;
-
     max-width: 288px;
-
   }
 }
 
@@ -26,5 +24,4 @@
   .cover__title {
     max-width: 288px;
   }
-
 }
