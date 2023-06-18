@@ -2,22 +2,5 @@
   grid-area: web;
   list-style-type: none;
   padding: 0;
-  margin: 0;
   align-self: self-end;
 }
-
-    @media screen and (max-width: 767px) {
-      .place__website {
-        width: calc(100% - 32px);
-        justify-self: center;
-      }
-    }
-
-
-    @media screen and (max-width: 450px) {
-      .place__website {
-        align-self: flex-start;
-        justify-self: flex-start;
-        padding-left: 15px;
-      }
-    }

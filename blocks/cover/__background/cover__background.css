@@ -32,24 +32,6 @@
 
 @media screen and (max-width: 1279px) {
   .cover__background {
-    min-height: 740px;
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .cover__background {
-    min-height: 640px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .cover__background {
-    min-height: 480px;
-  }
-}
-
-@media screen and (max-width: 424px) {
-  .cover__background {
-    min-height: 200px;
+    min-height: calc(100vw / 1.62);
   }
 }

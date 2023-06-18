@@ -1,12 +1,10 @@
 .header__link {
-  display: flex;
-  justify-content: space-between;
-  width: 77px;
-  align-self: flex-end;
-}
-
-@media screen and (max-width: 767px) {
-  .header__link {
-    width: 62px;
-  }
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, min-content);
+  grid-auto-flow: column;
+  gap: 18px;
+  align-items: end;
 }

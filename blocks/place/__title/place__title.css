@@ -23,13 +23,5 @@
   .place__title {
     font-size: 32px;
     line-height: 35px;
-    justify-self: center;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  .place__title {
-    align-self: flex-start;
-    padding-left: 15px;
   }
 }

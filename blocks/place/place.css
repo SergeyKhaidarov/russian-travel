@@ -27,8 +27,12 @@
 @media screen and (max-width: 767px) {
   .place {
     margin: 50px 0 0;
-    display: flex;
-    flex-direction: column;
+    grid-template-areas:
+  ". title ."
+  ". web ."
+  "image image image"
+  ". text .";
+  grid-template-columns: minmax(16px, 1fr) minmax(min-content, 460px) minmax(16px, 1fr);
     row-gap: 32px;
   }
 }

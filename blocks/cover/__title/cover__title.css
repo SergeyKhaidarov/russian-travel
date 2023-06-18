@@ -19,9 +19,3 @@
     max-width: 288px;
   }
 }
-
-@media screen and (max-width: 424px) {
-  .cover__title {
-    max-width: 288px;
-  }
-}

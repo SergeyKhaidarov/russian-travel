@@ -5,10 +5,11 @@
   line-height: 22px;
   color: #FFFFFF;
   padding-left: 7px;
+  margin: 0;
 }
 
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 767px) {
   .place__link {
     padding-left: 0;
   }

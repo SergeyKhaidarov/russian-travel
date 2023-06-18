@@ -20,6 +20,9 @@
 
 @media screen and (max-width: 767px) {
   .places {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(auto-fit, min-content);
     padding-top: 64px;
     width: 100%;
   }
