@@ -2,7 +2,6 @@
   grid-area: image;
   display: block;
   object-fit: cover;
-  grid-area: image;
   max-width: 460px;
   max-height: 460px;
 }
